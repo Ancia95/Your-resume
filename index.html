@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>Ancia - DevOps Engineer</title>
+
+ <script src="https://cdn.tailwindcss.com"></script>
+
+ <style>
+
+  /* Custom animations */
+
+  @keyframes fadeIn {
+
+   0% { opacity: 0; }
+
+   100% { opacity: 1; }
+
+  }
+
+  .fade-in {
+
+   animation: fadeIn 2s ease-in-out;
+
+  }
+
+  .scale-hover:hover {
+
+   transform: scale(1.05);
+
+   transition: transform 0.3s;
+
+  }
+
+ </style>
+
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+ <!-- Header Section -->
+
+ <section class="text-center py-16 bg-gray-800 text-white fade-in">
+
+  <h1 class="text-4xl font-bold">Ancia</h1>
+
+  <p class="text-xl mt-2">DevOps Engineer at Google</p>
+
+  <p class="mt-2">Bridging development and operations to create reliable, scalable systems</p>
+
+ </section>
+
+ <!-- About Section -->
+
+ <section class="p-8 bg-white text-gray-800 fade-in">
+
+  <h2 class="text-2xl font-semibold">About Me</h2>
+
+  <p class="mt-2 text-lg">
+
+   I'm a DevOps engineer with over 5 years of experience working at Google. I specialize in CI/CD pipelines, cloud infrastructure, and automating processes to streamline development workflows.
+
+  </p>
+
+ </section>
+
+ <!-- Skills Section -->
+
+ <section class="p-8 bg-gray-200 fade-in">
+
+  <h2 class="text-2xl font-semibold">Skills</h2>
+
+  <ul class="mt-4 grid grid-cols-3 gap-4">
+
+   <li class="p-4 border border-gray-300 rounded-md text-center scale-hover">React</li>
+
+   <li class="p-4 border border-gray-300 rounded-md text-center scale-hover">Docker</li>
+
+   <li class="p-4 border border-gray-300 rounded-md text-center scale-hover">Kubernetes</li>
+
+   <li class="p-4 border border-gray-300 rounded-md text-center scale-hover">AWS</li>
+
+   <li class="p-4 border border-gray-300 rounded-md text-center scale-hover">Terraform</li>
+
+   <li class="p-4 border border-gray-300 rounded-md text-center scale-hover">Jenkins</li>
+
+  </ul>
+
+ </section>
+
+ <!-- Projects Section -->
+
+ <section class="p-8 bg-white fade-in">
+
+  <h2 class="text-2xl font-semibold">Projects</h2>
+
+  <ul class="mt-4">
+
+   <li class="p-4 border border-gray-300 rounded-md mb-4">
+
+    <h3 class="font-semibold">CI/CD Pipeline for Google Cloud</h3>
+
+    <p>Implemented a robust CI/CD pipeline using Jenkins and Kubernetes, automating deployments and reducing manual errors.</p>
+
+   </li>
+
+   <li class="p-4 border border-gray-300 rounded-md mb-4">
+
+    <h3 class="font-semibold">Infrastructure Automation with Terraform</h3>
+
+    <p>Developed infrastructure-as-code solutions using Terraform to provision and manage AWS resources efficiently.</p>
+
+   </li>
+
+   <!-- Add more projects here -->
+
+  </ul>
+
+ </section>
+
+ <!-- Contact Section -->
+
+ <section class="p-8 bg-gray-200 fade-in">
+
+  <h2 class="text-2xl font-semibold">Contact</h2>
+
+  <form class="mt-4">
+
+   <textarea class="w-full p-4 border border-gray-300 rounded-md" rows="4" placeholder="Write a message..."></textarea>
+
+   <button type="submit" class="mt-4 p-2 bg-blue-500 text-white rounded-md">Send</button>
+
+  </form>
+
+ </section>
+
+</body>
+
+</html>
+
+
+
